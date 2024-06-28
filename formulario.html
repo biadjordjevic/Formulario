@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="bloco">
+    <header>
+        <h1>Cadastro</h1>
+        <h2 class="texto">Preencha os dados necessários abaixo para continuar: </h2>
+    </header>
+
+    <section>
+   <label>Informe seu <b>email</b> abaixo:</label>
+   <br><input id="email" class="input" type="email">
+   <br><br>
+
+   <label>Nome de usuário:</label>
+   <br><input id="user" class="input" type="user" value=>
+   <br> <br>
+
+   <label>Informe qual será sua senha: <b> (com um carácter maiúsculo e o uso de um digito) </b> </label>
+   <br><input id="senha" class="input" type="password" >
+   <br> <br>
+
+   <label>Insira sua data de nascimento: </label>
+   <br>  <input id="nasc" class="input" type="date" value="data">
+   <br> <br>
+
+   <label>Digite seu número de telefone: </label>
+   <br> +55 <input id="tel" class="input" type="tel" required placeholder="(xx) xxxxx-xxxx" maxlength="13" >
+</section>
+
+<br> <br>
+
+<section>
+<h3 class="texto">Informe sua faixa etária abaixo</h3>
+
+  <br>  <input name="idade" id="idade" class="idade" type="radio" value="idade1">
+  <label for="idade1">13-17</label> <br>
+
+  <input name="idade" id="idade" class="idade" type="radio" value="idade2">
+  <label for="idade2">18-29</label>
+
+ <br> <input  name="idade" id="idade" class="idade" type="radio" value="idade3">
+  <label for="idade3">30-49</label>
+
+  <br> <input name="idade" id="idade" class="idade" type="radio" value="idade4">
+  <label for="idade4">50-64</label>
+
+  <br> <input name="idade" id="idade" class="idade" type="radio" value="idade5">
+  <label for="idade5">+65</label>
+
+</section>
+
+<br><br>
+
+<section>
+ 
+    <h3 class="texto"> Para finalizar, selecione os itens abixo que já domina ou se interessa</h3>
+
+    <br>  <input name="item" id="item" class="check" type="checkbox" value="item1">
+    <label for="item1">Python</label> <br>
+
+    <br>  <input name="item" id="item" class="check" type="checkbox" value="item2">
+    <label for="item2">Java Script</label> <br>
+
+    <br>  <input name="item" id="item" class="check" type="checkbox" value="item3">
+    <label for="item3">Java </label> <br>
+
+    <br>  <input name="item" id="item" class="check" type="checkbox" value="item4">
+    <label for="item4">Go </label> <br>
+
+    <br>  <input name="item" id="item" class="check" type="checkbox" value="item5">
+    <label for="item5">Swift </label> <br>
+    
+    <br>  <input name="item" id="item" class="check" type="checkbox" value="item6">
+    <label for="item6">C# </label> <br>
+
+    <br>  <input name="item" id="item" class="check" type="checkbox" value="item7">
+    <label for="item7">C++ </label> <br>
+
+    <br>  <input name="item" id="item" class="check" type="checkbox" value="item7">
+    <label for="item7">PHP </label> <br>
+</section>
+<br><br>
+<hr>
+<section>
+  
+    <input name="termos" id="termos" class="termos" type="radio" value="termo">
+    <label for="termos">Confirme que está de acordo com os <b>termos de uso e política de privacidade</b> </label>
+</section>
+<hr>
+<br> <br>
+<button class="button" onclick= "Verificação()" >Continuar</button>
+</div>
+
+<script src="formulario.js"></script>
+
+</body>
+</html>
