@@ -11,14 +11,16 @@ body {
 }
 
 .input{
-    border: 2px  black;
+    border: 2px  rgb(255, 255, 255);
     border-radius: 20px;
     color: #272727;
-    width: auto;
-    height: 25px;
+    width: 20%;
+    height: 40px;
     margin-top: 1%;
     background-color: rgb(184, 184, 184);
-    
+    font-size:larger;
+
+
 }
 
 
@@ -38,11 +40,10 @@ h1{
 .button{
     width: 200px;
     height: 50px;
-   
     font-size: 16px; 
     padding: 10px; 
     background-color: rgb(21, 21, 134); 
     color: #fff; 
     border: none;
-   
+ 
 }
