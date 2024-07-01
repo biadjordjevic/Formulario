@@ -7,4 +7,4 @@ Página de cadastro estática (JS em desinvolvimento)
  ---
  ### Pré-visualização:
 
- ![image](https://github.com/biadjordjevic/Formulario/assets/161859325/f446715c-fd37-4a9c-9dcd-ad4976155a7e)
+![image](https://github.com/biadjordjevic/Formulario/assets/161859325/1f5c7e38-d2fe-42be-abe3-c7cad960f4e5)
