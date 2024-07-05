@@ -3,11 +3,12 @@ body {
     background-color: rgb(202, 202, 202);
     padding: 10px 20px;
     margin: 5%;
-    margin-left: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .texto{
-    color: rgb(21, 21, 134);
+    color: rgb(10, 10, 77);
 }
 
 .input{
@@ -42,8 +43,13 @@ h1{
     height: 50px;
     font-size: 16px; 
     padding: 10px; 
-    background-color: rgb(21, 21, 134); 
+    background-color: rgb(10, 10, 77); 
     color: #fff; 
     border: none;
+    border-radius: 20px;
  
+}
+
+.button:hover{
+    background-color: rgba(10, 10, 77, 0.692);
 }
